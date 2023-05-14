@@ -1,0 +1,154 @@
+E/DartVM  (13785): Exhausted heap space, trying to allocate 29040 bytes.
+E/Dart    (13785): ../../third_party/dart/runtime/vm/object.cc: 2691: error: Out of memory.
+E/DartVM  (13785): version=2.14.2 (stable) (Wed Sep 15 12:32:06 2021 +0200) on "android_arm"
+E/DartVM  (13785): pid=13785, thread=25514, isolate_group=startMagicFilterIsolate(0x7dda4b00), isolate=startMagicFilterIsolate(0x84e33c00)
+E/DartVM  (13785): isolate_instructions=bc0b17c0, vm_instructions=bc0b17c0
+E/DartVM  (13785):   pc 0xbc16d7dd fp 0xa61fb9b0 /data/app/com.cam.scanner.camscanner.documentscanner-WCOk1SXLZUID6vPvDkYePA==/lib/arm/libflutter.so+0x15837dd
+E/DartVM  (13785): -- End of DumpStackTrace
+E/DartVM  (13785): Exhausted heap space, trying to allocate 6824 bytes.
+E/Dart    (13785): ../../third_party/dart/runtime/vm/object.cc: 2691: error: Out of memory.
+E/DartVM  (13785): Aborting re-entrant request for stack trace.
+V/CleverTap(13785): Getting domain from header - null
+V/CleverTap:W8R-5W9-Z46Z(13785): Trying to process response: { "arp" : { "j_n" : "ZmJnegoC" , "i_n" : "ZmJnegoC" , "d_ts" : 1655711471 , "dh" : 360207602 , "v" : 1 , "j_s" : "{ }" , "id" : "W8R-5W9-Z46Z" , "e_ts" : 0 , "r_ts" : 1655715267 , "wdt" : 2.68 , "hgt" : 5.38 , "av" : "3.0.70" , "sv" : 40400} , "imc" : 1 , "imp" : 10 , "pushamp_notifs" : { "list" : [ ] , "ack" : true , "pf" : 240}}
+V/CleverTap:W8R-5W9-Z46Z(13785): InApp: Processing response
+V/CleverTap:W8R-5W9-Z46Z(13785): InApp: Response JSON object doesn't contain the inapp key, failing
+V/CleverTap:W8R-5W9-Z46Z(13785): ARP doesn't contain the Discarded Events key
+V/CleverTap:W8R-5W9-Z46Z(13785): New ARP Key = ARP:W8R-5W9-Z46Z:__gab2e6d96a8b54bad897d0ba4ece8bc88
+V/CleverTap:W8R-5W9-Z46Z(13785): Stored ARP for namespace key: ARP:W8R-5W9-Z46Z:__gab2e6d96a8b54bad897d0ba4ece8bc88 values: {"j_n":"ZmJnegoC","i_n":"ZmJnegoC","d_ts":1655711471,"dh":360207602,"v":1,"j_s":"{ }","id":"W8R-5W9-Z46Z","e_ts":0,"r_ts":1655715267,"wdt":2.68,"hgt":5.38,"av":"3.0.70","sv":40400}
+V/CleverTap:W8R-5W9-Z46Z(13785): Inbox: Processing response
+V/CleverTap:W8R-5W9-Z46Z(13785): Inbox: Response JSON object doesn't contain the inbox key
+V/CleverTap:W8R-5W9-Z46Z(13785): Processing pushamp messages...
+V/CleverTap(13785): Ping frequency received - 240
+V/CleverTap(13785): Stored Ping Frequency - 240
+V/CleverTap(13785): Received ACK -true
+E/CursorWindow(13785): CursorWindow: mmap() failed: errno=12.
+V/CleverTap:W8R-5W9-Z46Z(13785): Processing Display Unit items...
+V/CleverTap:W8R-5W9-Z46Z(13785): DisplayUnit : JSON object doesn't contain the Display Units key
+V/CleverTap:W8R-5W9-Z46Z(13785): Processing Feature Flags response...
+V/CleverTap:W8R-5W9-Z46Z(13785): Feature Flag : JSON object doesn't contain the Feature Flags key
+V/CleverTap:W8R-5W9-Z46Z(13785): Processing Product Config response...
+V/CleverTap:W8R-5W9-Z46Z(13785): Product Config : JSON object doesn't contain the Product Config key
+V/CleverTap:W8R-5W9-Z46Z(13785): Processing GeoFences response...
+V/CleverTap:W8R-5W9-Z46Z(13785): Geofences : JSON object doesn't contain the Geofences key
+I/CleverTapResponse(13785): Done processing response!
+D/CleverTap:W8R-5W9-Z46Z(13785): Queue sent successfully
+V/CleverTap:W8R-5W9-Z46Z(13785): Returning Queued events
+E/CursorWindow(13785): CursorWindow: mmap() failed: errno=12.
+V/CleverTap(13785): PostAsyncSafely Task: CommsManager#flushQueueAsync failed to execute on...pool-25-thread-1
+V/CleverTap(13785): android.database.CursorWindowAllocationException: Could not allocate CursorWindow '/data/user/0/com.cam.scanner.camscanner.documentscanner/databases/clevertap' of size 2097152 due to error -12.
+V/CleverTap(13785): 	at android.database.CursorWindow.nativeCreate(Native Method)
+V/CleverTap(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:139)
+V/CleverTap(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:120)
+V/CleverTap(13785): 	at android.database.AbstractWindowedCursor.clearOrCreateWindow(AbstractWindowedCursor.java:202)
+V/CleverTap(13785): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:149)
+V/CleverTap(13785): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:142)
+V/CleverTap(13785): 	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:232)
+V/CleverTap(13785): 	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:287)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBAdapter.fetchEvents(DBAdapter.java:717)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueueCursor(DBManager.java:108)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedDBEvents(DBManager.java:119)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedEvents(DBManager.java:137)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.network.NetworkManager.flushDBQueue(NetworkManager.java:165)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager.flushQueueSync(EventQueueManager.java:161)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:133)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:124)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.task.Task$1.run(Task.java:209)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.task.PostAsyncSafelyExecutor$1.run(PostAsyncSafelyExecutor.java:45)
+V/CleverTap(13785): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+V/CleverTap(13785): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+V/CleverTap(13785): 	at java.lang.Thread.run(Thread.java:919)
+W/System.err(13785): android.database.CursorWindowAllocationException: Could not allocate CursorWindow '/data/user/0/com.cam.scanner.camscanner.documentscanner/databases/clevertap' of size 2097152 due to error -12.
+W/System.err(13785): 	at android.database.CursorWindow.nativeCreate(Native Method)
+W/System.err(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:139)
+W/System.err(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:120)
+W/System.err(13785): 	at android.database.AbstractWindowedCursor.clearOrCreateWindow(AbstractWindowedCursor.java:202)
+W/System.err(13785): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:149)
+W/System.err(13785): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:142)
+W/System.err(13785): 	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:232)
+W/System.err(13785): 	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:287)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBAdapter.fetchEvents(DBAdapter.java:717)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueueCursor(DBManager.java:108)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedDBEvents(DBManager.java:119)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedEvents(DBManager.java:137)
+W/System.err(13785): 	at com.clevertap.android.sdk.network.NetworkManager.flushDBQueue(NetworkManager.java:165)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager.flushQueueSync(EventQueueManager.java:161)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:133)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:124)
+W/System.err(13785): 	at com.clevertap.android.sdk.task.Task$1.run(Task.java:209)
+W/System.err(13785): 	at com.clevertap.android.sdk.task.PostAsyncSafelyExecutor$1.run(PostAsyncSafelyExecutor.java:45)
+W/System.err(13785): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+W/System.err(13785): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+W/System.err(13785): 	at java.lang.Thread.run(Thread.java:919)
+V/CleverTap(13785): PostAsyncSafely Task: CommsManager#flushQueueAsync starting on...pool-25-thread-1
+V/CleverTap:W8R-5W9-Z46Z(13785): Pushing Notification Viewed event onto queue flush sync
+V/CleverTap:W8R-5W9-Z46Z(13785): Pushing Notification Viewed event onto queue DB flush
+V/CleverTap:W8R-5W9-Z46Z(13785): Somebody has invoked me to send the queue to CleverTap servers
+V/CleverTap:W8R-5W9-Z46Z(13785): Returning Queued Notification Viewed events
+E/CursorWindow(13785): CursorWindow: mmap() failed: errno=12.
+V/CleverTap(13785): PostAsyncSafely Task: CommsManager#flushQueueAsync failed to execute on...pool-25-thread-1
+V/CleverTap(13785): android.database.CursorWindowAllocationException: Could not allocate CursorWindow '/data/user/0/com.cam.scanner.camscanner.documentscanner/databases/clevertap' of size 2097152 due to error -12.
+V/CleverTap(13785): 	at android.database.CursorWindow.nativeCreate(Native Method)
+V/CleverTap(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:139)
+V/CleverTap(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:120)
+V/CleverTap(13785): 	at android.database.AbstractWindowedCursor.clearOrCreateWindow(AbstractWindowedCursor.java:202)
+V/CleverTap(13785): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:149)
+V/CleverTap(13785): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:142)
+V/CleverTap(13785): 	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:232)
+V/CleverTap(13785): 	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:287)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBAdapter.fetchEvents(DBAdapter.java:717)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueueCursor(DBManager.java:108)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getPushNotificationViewedQueuedEvents(DBManager.java:90)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedEvents(DBManager.java:134)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.network.NetworkManager.flushDBQueue(NetworkManager.java:165)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager.flushQueueSync(EventQueueManager.java:161)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:133)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:124)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.task.Task$1.run(Task.java:209)
+V/CleverTap(13785): 	at com.clevertap.android.sdk.task.PostAsyncSafelyExecutor$1.run(PostAsyncSafelyExecutor.java:45)
+V/CleverTap(13785): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+V/CleverTap(13785): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+V/CleverTap(13785): 	at java.lang.Thread.run(Thread.java:919)
+W/System.err(13785): android.database.CursorWindowAllocationException: Could not allocate CursorWindow '/data/user/0/com.cam.scanner.camscanner.documentscanner/databases/clevertap' of size 2097152 due to error -12.
+W/System.err(13785): 	at android.database.CursorWindow.nativeCreate(Native Method)
+W/System.err(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:139)
+W/System.err(13785): 	at android.database.CursorWindow.<init>(CursorWindow.java:120)
+W/System.err(13785): 	at android.database.AbstractWindowedCursor.clearOrCreateWindow(AbstractWindowedCursor.java:202)
+W/System.err(13785): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:149)
+W/System.err(13785): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:142)
+W/System.err(13785): 	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:232)
+W/System.err(13785): 	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:287)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBAdapter.fetchEvents(DBAdapter.java:717)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueueCursor(DBManager.java:108)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getPushNotificationViewedQueuedEvents(DBManager.java:90)
+W/System.err(13785): 	at com.clevertap.android.sdk.db.DBManager.getQueuedEvents(DBManager.java:134)
+W/System.err(13785): 	at com.clevertap.android.sdk.network.NetworkManager.flushDBQueue(NetworkManager.java:165)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager.flushQueueSync(EventQueueManager.java:161)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:133)
+W/System.err(13785): 	at com.clevertap.android.sdk.events.EventQueueManager$1.call(EventQueueManager.java:124)
+W/System.err(13785): 	at com.clevertap.android.sdk.task.Task$1.run(Task.java:209)
+W/System.err(13785): 	at com.clevertap.android.sdk.task.PostAsyncSafelyExecutor$1.run(PostAsyncSafelyExecutor.java:45)
+W/System.err(13785): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+W/System.err(13785): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+W/System.err(13785): 	at java.lang.Thread.run(Thread.java:919)
+E/DartVM  (13785): Exhausted heap space, trying to allocate 64 bytes.
+F/libc    (13785): Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 25520 (DartWorker), pid 13785 (documentscanner)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'Redmi/cattail/cattail:10/QP1A.190711.020/V12.0.16.0.QCTINXM:user/release-keys'
+Revision: '0'
+ABI: 'arm'
+Timestamp: 2022-06-20 14:24:30+0530
+pid: 13785, tid: 25520, name: DartWorker  >>> com.cam.scanner.camscanner.documentscanner <<<
+uid: 10349
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Abort message: '../../third_party/dart/runtime/vm/object.cc: 2691: error: Out of memory.'
+    r0  00000000  r1  000063b0  r2  00000006  r3  a7afb900
+    r4  a7afb914  r5  a7afb8f8  r6  000035d9  r7  0000016b
+    r8  a7afb910  r9  a7afb900  r10 a7afb930  r11 a7afb920
+    ip  000063b0  sp  a7afb8d0  lr  ec161343  pc  ec161356
+backtrace:
+      #00 pc 0005f356  /apex/com.android.runtime/lib/bionic/libc.so (abort+166) (BuildId: af31ec96b35fedca378e07659b30896c)
+      #01 pc 014c68bf  /data/app/com.cam.scanner.camscanner.documentscanner-WCOk1SXLZUID6vPvDkYePA==/lib/arm/libflutter.so (BuildId: 921e1b43627c92748677c7f4aac2a1cf626255a1)
+      #02 pc 01564ccf  /data/app/com.cam.scanner.camscanner.documentscanner-WCOk1SXLZUID6vPvDkYePA==/lib/arm/libflutter.so (BuildId: 921e1b43627c92748677c7f4aac2a1cf626255a1)
+      #03 pc 0007fc1e  <anonymous:a7a7c000>
+Lost connection to device.
+the Dart compiler exited unexpectedly.
